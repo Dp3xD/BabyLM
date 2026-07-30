@@ -28,15 +28,6 @@ Grounding produces a large perplexity improvement but does not improve (and slig
 ## Repository Structure
 ```
 .
-├── files/                      # final report (LaTeX source, compiled PDF, figures, bib)
-│   ├── main.tex
-│   ├── main.pdf
-│   ├── architecture.pdf
-│   ├── blimp_category.pdf
-│   ├── learning_curve.pdf
-│   ├── ACL2023.sty
-│   ├── acl_natbib.bst
-│   └── refs.bib
 ├── scripts/
 │   ├── prepare_data.py         # builds matched-budget training data for both models
 │   ├── train_model_a.py        # trains Model A locally
