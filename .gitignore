@@ -1,0 +1,56 @@
+# Virtual environments
+babylm/
+myenv/
+venv/
+env/
+
+# Model checkpoints (large files, don't belong in git)
+checkpoints/
+
+# Downloaded/cached data, large derived datasets (regenerable via prepare_data.py)
+data/
+*.cache/
+
+# HuggingFace cache (in case it ever gets created locally in-repo)
+.cache/
+huggingface/
+
+# Cloned eval pipeline repo, not our own work, regenerable via git clone
+babylm-eval/
+
+# Archives / zips (checkpoint transfers, downloaded results, large exports)
+*.zip
+
+# LaTeX build artifacts (regenerable by compiling main.tex)
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+*.token
+
+# Weights & Biases logs
+wandb/
+
+# IDE
+.vscode/
