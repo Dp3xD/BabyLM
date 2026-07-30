@@ -2,7 +2,7 @@
 
 A Controlled Study Under BabyLM Constraints — CS6120 (NLP), Northeastern University
 
-**Full report:** [`files/main.pdf`](files/main.pdf)
+**Full report:** [`Does_Visual_Grounding_Help_a_Small_Language_Model_Learn_More_Efficiently.pdf`](Does_Visual_Grounding_Help_a_Small_Language_Model_Learn_More_Efficiently.pdf)
 
 ## Team
 Divya Patel, James Jacob, Ramandeep Singh — Khoury College of Computer Sciences, Northeastern University
